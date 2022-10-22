@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-listado',
-  templateUrl: './listado.component.html',
+  selector: 'app-topbar',
+  templateUrl: './topbar.component.html',
   styles: [
   ]
 })
-export class ListadoComponent implements OnInit {
+export class TopbarComponent implements OnInit {
 
   constructor() { }
 

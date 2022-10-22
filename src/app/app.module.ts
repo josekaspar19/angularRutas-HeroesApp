@@ -3,20 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
-import { ErrorPageComponent } from './shared/error-page/error-page.component';
+import { ErrorPageComponent } from './shared/components/error-page/error-page.component';
+import { MenuComponent } from './shared/components/menu/menu.component';
+import { TopbarComponent } from './shared/components/topbar/topbar.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
+    MenuComponent,
+    TopbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],

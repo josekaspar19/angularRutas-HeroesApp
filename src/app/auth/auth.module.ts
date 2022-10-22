@@ -6,16 +6,21 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { AuthRoutingModule } from './auth-routing.module';
 
+import { PrimeNgModule } from '../prime-ng/prime-ng.module';
+import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+
 
 
 @NgModule({
   declarations: [
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    LandingPageComponent
   ],
   imports: [
     CommonModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    PrimeNgModule
   ]
 })
 export class AuthModule { }

@@ -1,5 +1,5 @@
 {
-  "name": "heroes-app",
+  "name": "mindeo-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -16,10 +16,11 @@
     "@angular/compiler": "^14.0.0",
     "@angular/core": "^14.0.0",
     "@angular/forms": "^14.0.0",
-    "@angular/material": "^14.2.2",
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "primeicons": "^6.0.1",
+    "primeng": "^14.1.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
